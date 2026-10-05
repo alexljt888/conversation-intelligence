@@ -1,0 +1,35 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #202b38;
+  background: #f6f7f9;
+  line-height: 1.5;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+h1 { margin-bottom: 8px; }
+label { display: block; font-weight: 600; margin: 24px 0 8px; }
+textarea { width: 100%; padding: 12px; font: inherit; border: 1px solid #9ca8b5; border-radius: 6px; resize: vertical; }
+small { display: block; color: #526170; }
+button { display: block; margin-top: 16px; padding: 10px 22px; border: 0; border-radius: 6px; background: #2459b0; color: white; font: inherit; cursor: pointer; }
+button:disabled { opacity: .65; cursor: not-allowed; }
+textarea:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid #80aaf0; outline-offset: 2px; }
+.error { padding: 12px; background: #ffe9e9; color: #8b2020; border-radius: 6px; }
+.items { list-style: none; padding: 0; }
+.items li { margin-bottom: 12px; padding: 16px; background: white; border: 1px solid #d7dde5; border-radius: 6px; overflow-wrap: anywhere; }
+.items h3 { margin: 0 0 8px; font-size: 1.05rem; }
+.items p { margin: 4px 0; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.secondary { background: #e8edf5; color: #203f70; }
+.item-editor { margin-top: 16px; padding: 16px; border: 1px solid #9ca8b5; border-radius: 6px; background: white; }
+.item-editor h3 { margin-top: 0; }
+.item-editor label { margin-top: 12px; }
+.item-editor input { width: 100%; padding: 10px; font: inherit; border: 1px solid #9ca8b5; border-radius: 6px; }
+.items .completed { background: #edf6ef; }
+.completed h3 { text-decoration: line-through; }
+.item-status { font-weight: 600; }
+.trust-labels { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.trust-labels span { padding: 3px 8px; border-radius: 4px; background: #e8edf5; font-size: .9rem; }
+.trust-labels .needs-review { background: #fff0bf; color: #644400; font-weight: 600; }
+blockquote { margin: 8px 0; padding: 8px 12px; border-left: 3px solid #9ca8b5; white-space: pre-wrap; }
+.edit-note { color: #526170; font-size: .9rem; }
